@@ -3,137 +3,214 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" >
+    <meta name="description" content="A-Lift Crane Rental is a family-owned crane company in Fraser, Michigan, with 24/7 emergency crane service.">
+    <title>A-Lift Crane Rental | Fraser, MI</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
   </head>
   <body>
+    <header class="header">
+      <div class="container header-inner">
+        <img id="logo" src="./assets/Final Logo.png" alt="">
+        <p id="business-title">A-Lift Crane Rental</p>
 
-    <header class="header"> 
-      <img id="logo" src="./assets/Final Logo.png"/>
-      <a id="business-title" href="home">A-Lift Crane Rental</a>
-
-      <nav class="header-contact-links" aria-label="main navigation">
-        <a href="tel:15869328196">📞 (586)-932-8196</a>
-        <a href="mailto:aliftcranerental@gmail.com">📧 aliftcranerental@gmail.com</a>
-        <a href="https://www.google.com/maps/place/A-Lift+Crane+Rental/@42.5240433,-82.9688421,17z/data=!3m1!4b1!4m6!3m5!1s0x8824d98c7ebaecd5:0xa15c30bc7b3b1a89!8m2!3d42.5240433!4d-82.9662672!16s%2Fg%2F11_00p34fv?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D">
-          Get directions
-        </a>
-      </nav>
+        <nav class="header-contact-links" aria-label="Contact shortcuts">
+          <a class="header-call" href="tel:+15869328196">
+            <span class="contact-short">Call</span>
+            <span class="contact-full">(586) 932-8196</span>
+          </a>
+          <a href="mailto:aliftcranerental@gmail.com">
+            <span class="contact-short">Email</span>
+            <span class="contact-full">aliftcranerental@gmail.com</span>
+          </a>
+          <a href="https://www.google.com/maps/place/A-Lift+Crane+Rental/@42.5240433,-82.9688421,17z/data=!3m1!4b1!4m6!3m5!1s0x8824d98c7ebaecd5:0xa15c30bc7b3b1a89!8m2!3d42.5240433!4d-82.9662672!16s%2Fg%2F11_00p34fv?entry=ttu&amp;g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D">
+            Directions
+          </a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section id="home" class="hero">
-        <h1>Professional crane service you can rely on</h1>
-        <a class="hero-link" href="#industries">View Industries</a>
-      </section>
-
-      <section class="about">
-        <img src="./assets/img-3.jpeg" />
-        <div>
-          <h3>Family owned in Fraser, MI</h3>
-          <p>
-            Based in Fraser, Michigan, we're a small, family-owned crane company built from humble beginnings and a 
-            desire to create something of our own. We started this business with a simple belief: work hard, treat people right, 
-            and take pride in what you do. Those values continue to guide us today and are at the heart of how we do business. 
-            Being a smaller company allows us to take a more personal approach. We value the relationships we build with our customers 
-            and understand that our reputation is earned one job at a time. We're grateful for the customers who have supported us along the way, 
-            and committed to bringing the same honesty and dependability to every job.
-          </p>
+      <section id="home" class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <p class="hero-location">Fraser, Michigan</p>
+          <h1 id="hero-title">Professional crane service you can rely on</h1>
+          <a class="button hero-link" href="#industries">View industries</a>
         </div>
       </section>
-      
-      <section class="choose-us">
-        <h2>Why choose us</h2>
-        <div class="reasons-to-choose">
-          <div id="reason">
-            <h3>Safety</h3>
+
+      <section class="section about" aria-labelledby="about-title">
+        <div class="container about-inner">
+          <img class="about-photo" src="./assets/img-3.jpeg" alt="A-Lift Crane Rental company photo" loading="lazy">
+          <div class="about-copy">
+            <h2 id="about-title">Family owned in Fraser, MI</h2>
             <p>
-              Safety comes first on every job. Our NCCCO certified crane operators are committed to proper planning, 
-              professional operation, and safe lifting practices.
+              Based in Fraser, Michigan, we're a small, family-owned crane company built from humble beginnings and a
+              desire to create something of our own. We started this business with a simple belief: work hard, treat people right,
+              and take pride in what you do. Those values continue to guide us today and are at the heart of how we do business.
             </p>
-          </div>
-          <div id="reason">
-            <h3>Dependability</h3>
             <p>
-              We know your time matters and delays affect more than just one job. We make it a priority to show up 
-              prepared and respect your schedule. If plans change, we'll communicate openly and work with you to keep things moving.
-            </p>
-          </div>
-          <div id="reason">
-            <h3>24/7 emergency availability</h3>
-            <p>
-              We understand that not every job happens during regular business hours, that’s why we’re available 24/7 for emergency crane service. 
-              When the unexpected happens, you can count on us to answer the call.
+              Being a smaller company allows us to take a more personal approach. We value the relationships we build with our customers
+              and understand that our reputation is earned one job at a time. We're grateful for the customers who have supported us along the way
+              and committed to bringing the same honesty and dependability to every job.
             </p>
           </div>
         </div>
       </section>
 
-      <section id="industries">
-        <h2>Supported Industries</h2>
-        <ul>
-          <li>HVAC</li>
-          <li>utilities</li>
-          <li>construction</li>
-          <li>signage</li>
-          <li>carpentry</li>
-          <li>roofing</li>
-          <li>hot tubs and spas</li>
-        </ul>
+      <section class="section choose-us" aria-labelledby="choose-us-title">
+        <div class="container">
+          <h2 class="centered-heading" id="choose-us-title">Why choose us</h2>
+          <div class="reasons-to-choose">
+            <div class="reason">
+              <h3>Safety</h3>
+              <p>
+                Safety comes first on every job. Our NCCCO-certified crane operators are committed to proper planning,
+                professional operation, and safe lifting practices.
+              </p>
+            </div>
+            <div class="reason">
+              <h3>Dependability</h3>
+              <p>
+                We know your time matters and delays affect more than just one job. We make it a priority to show up
+                prepared and respect your schedule. If plans change, we'll communicate openly and work with you to keep things moving.
+              </p>
+            </div>
+            <div class="reason">
+              <h3>24/7 emergency availability</h3>
+              <p>
+                We understand that not every job happens during regular business hours. That's why we're available 24/7 for emergency crane service.
+                When the unexpected happens, you can count on us to answer the call.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="areas-serviced">
-        <h2>Areas Serviced</h2>
-        <ul>
-          <li>wayne</li>
-          <li>oakland</li>
-          <li>macomb</li>
-          <li>lapeer</li>
-          <li>livingston</li>
-          <li>genesse</li>
-          <li>washentaw</li>
-          <li>monroe </li>
-        </ul>
-      </section>
-      
-      <section class="gallery">
-        <h2>Gallery</h2>
-        <div class="photo-gallery">
-          <button
-            id="previous-photo"
-            class="gallery-arrow"
-            type="button"
-            arai-label="Previous photo"
-          >
-            &#10094;
-          </button>
+      <div class="section service-details">
+        <div class="container service-inner">
+          <section id="industries" aria-labelledby="industries-title">
+            <h2 id="industries-title">Supported Industries</h2>
+            <ul class="industry-list">
+              <li>HVAC</li>
+              <li>Utilities</li>
+              <li>Construction</li>
+              <li>Signage</li>
+              <li>Carpentry</li>
+              <li>Roofing</li>
+              <li>Hot tubs and spas</li>
+            </ul>
+          </section>
 
-          <img
-            id="gallery-photo"
-            src="assets/img-1.jpeg"
-            alt="Description of the first photo"
-          >
+          <section class="areas-serviced" aria-labelledby="areas-title">
+            <h2 id="areas-title">Service Areas</h2>
+            <p>Serving these Michigan counties</p>
+            <ul class="county-list" role="list">
+              <li>Wayne</li>
+              <li>Oakland</li>
+              <li>Macomb</li>
+              <li>Lapeer</li>
+              <li>Livingston</li>
+              <li>Genesee</li>
+              <li>Washtenaw</li>
+              <li>Monroe</li>
+            </ul>
+          </section>
+        </div>
+      </div>
 
-          <button
-            id="next-photo"
-            class="gallery-arrow"
-            type="button"
-            arai-label="Next photo"
-          >
-            &#10095;
-          </button>
+      <section class="section gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <h2 class="centered-heading" id="gallery-title">Gallery</h2>
+          <div class="photo-gallery">
+            <button id="previous-photo" class="gallery-arrow" type="button" aria-label="Previous photo" aria-controls="gallery-photo">
+              <span aria-hidden="true">❮</span>
+            </button>
+
+            <img id="gallery-photo" src="./assets/img-1.jpeg" alt="First photo in the A-Lift Crane Rental gallery" loading="lazy">
+
+            <button id="next-photo" class="gallery-arrow" type="button" aria-label="Next photo" aria-controls="gallery-photo">
+              <span aria-hidden="true">❯</span>
+            </button>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <h2>Contact Us</h2>
-      <p>586-932-8196</p>
-      <p>aliftcranerental@gmail.com</p>
-      <p>Hours:</p>
-      <p>Mon-Sat 8am-6pm</p>
+    <footer class="footer section">
+      <div class="container footer-inner">
+        <div class="footer-details">
+          <div class="footer-heading">
+            <h2>Contact us</h2>
+            <p class="footer-location">A-Lift Crane Rental · Fraser, MI</p>
+          </div>
+
+          <div class="footer-contact-info">
+            <a class="footer-phone" href="tel:+15869328196">(586) 932-8196</a>
+            <a class="footer-email" href="mailto:aliftcranerental@gmail.com">
+              aliftcranerental@gmail.com
+            </a>
+          </div>
+
+          <div class="footer-business-hours">
+            <h3>Business hours</h3>
+            <p>Monday – Saturday: 8 AM – 6 PM</p>
+            <p class="footer-emergency">24/7 emergency crane service</p>
+          </div>
+        </div>
+
+        <div class="consultation-card">
+          <h3>Planning a lift?</h3>
+          <p>Tell us about your project, including the job location and preferred date.</p>
+
+          <button
+            id="open-consultation"
+            class="button consultation-button"
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="consultation-dialog"
+          >
+            Schedule a consultation
+          </button>
+        </div>
+      </div>
     </footer>
-   
+
+    <dialog id="consultation-dialog" aria-labelledby="consultation-title">
+      <button id="close-consultation" class="consultation-close" type="button" autofocus>
+        X
+      </button>
+
+      <h2 id="consultation-title">Fill out the form to schedule a consultation</h2>
+      <p class="consultation-note">We’ll contact you to confirm a time.</p>
+
+      <form
+        class="consultation-form"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="post"
+      >
+        <label for="consultation-name">Name*</label>
+        <input id="consultation-name" name="name" autocomplete="name" required>
+
+        <label for="consultation-email">Email*</label>
+        <input
+          id="consultation-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+        >
+
+        <label for="consultation-phone">Phone number (optional)</label>
+        <input id="consultation-phone" name="phone" type="tel" autocomplete="tel">
+
+        <label for="consultation-message">Message*</label>
+        <textarea id="consultation-message" name="message" rows="4" required></textarea>
+
+        <button class="button consultation-button" type="submit">
+          Send request
+        </button>
+      </form>
+    </dialog>
   </body>
 </html>

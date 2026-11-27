@@ -41,3 +41,16 @@ previousButton.addEventListener("click", () => {
 nextButton.addEventListener("click", () => {
    showPhoto(currentPhoto + 1);
 });
+
+// Consultation form
+const consultationDialog = document.getElementById("consultation-dialog");
+const openConsultation = document.getElementById("open-consultation");
+const closeConsultation = document.getElementById("close-consultation");
+
+openConsultation.addEventListener("click", () => {
+  consultationDialog.showModal();
+});
+
+closeConsultation.addEventListener("click", () => {
+  consultationDialog.close();
+});
